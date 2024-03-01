@@ -32,7 +32,7 @@ class InfoWeatherBody extends StatelessWidget {
             children: [
               Text(
                 weatherModel.cityName,
-                style: TextStyle(
+                style: const TextStyle(
                   fontSize: 32,
                   fontWeight: FontWeight.bold,
                 ),
@@ -46,23 +46,25 @@ class InfoWeatherBody extends StatelessWidget {
               ),
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                // crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
                   Image.network("https:${weatherModel.image}"),
                   Text(
-                    weatherModel.temp.toString(),
-                    style: TextStyle(fontSize: 32, fontWeight: FontWeight.bold),
+                    '${weatherModel.temp.round()}',
+                    style: const TextStyle(
+                        fontSize: 32, fontWeight: FontWeight.bold),
                   ),
                   Column(
                     children: [
                       Text(
                         'Maxtemp: ${weatherModel.maxTemp.round()}',
-                        style: TextStyle(
+                        style: const TextStyle(
                           fontSize: 16,
                         ),
                       ),
                       Text(
                         'Mintemp: ${weatherModel.minTemp.round()}',
-                        style: TextStyle(
+                        style: const TextStyle(
                           fontSize: 16,
                         ),
                       ),
@@ -72,7 +74,7 @@ class InfoWeatherBody extends StatelessWidget {
               ),
               Text(
                 weatherModel.weatherCondtion,
-                style: TextStyle(
+                style: const TextStyle(
                   fontSize: 32,
                   fontWeight: FontWeight.bold,
                 ),
