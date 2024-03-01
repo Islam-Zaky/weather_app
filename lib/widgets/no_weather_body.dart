@@ -12,9 +12,10 @@ class NoWeatherBody extends StatelessWidget {
           mainAxisSize: MainAxisSize.min,
           children: [
             Text(
-              "There is no weather 😌 start",
+              "There is no weather 😌",
               style: TextStyle(fontSize: 28),
             ),
+            Text(""),
             Text(
               "Searching now 🔍",
               style: TextStyle(fontSize: 28),
