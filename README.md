@@ -8,6 +8,11 @@
 - Using Bloc State Management.
 
 
+# Demo
+
+https://github.com/Islam-Zaky/weather_app/assets/49339964/4da577a5-bac2-4449-a8ee-d4029eed339d
+
+
 # Screenshots
 
 ![1](https://github.com/Islam-Zaky/weather_app/assets/49339964/a76fe013-6eaf-4702-9b8e-ff9910b77e52)
@@ -18,7 +23,5 @@
 ![6](https://github.com/Islam-Zaky/weather_app/assets/49339964/52e006ed-496d-429b-be07-e1969e2d96d2)
 
 
-# Demo
 
-https://github.com/Islam-Zaky/weather_app/assets/49339964/4da577a5-bac2-4449-a8ee-d4029eed339d
 
